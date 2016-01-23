@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonQr3D.CSharp.Plugins", "KonQr3D.CSharp.Plugins.csproj", "{B617C34E-7D96-883D-1472-86F8D8C8EBA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonQr3D.CSharp", "KonQr3D.CSharp.csproj", "{E22642FD-EC4E-8AE6-BBE9-D910BDC289BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B617C34E-7D96-883D-1472-86F8D8C8EBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B617C34E-7D96-883D-1472-86F8D8C8EBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B617C34E-7D96-883D-1472-86F8D8C8EBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B617C34E-7D96-883D-1472-86F8D8C8EBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22642FD-EC4E-8AE6-BBE9-D910BDC289BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22642FD-EC4E-8AE6-BBE9-D910BDC289BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22642FD-EC4E-8AE6-BBE9-D910BDC289BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22642FD-EC4E-8AE6-BBE9-D910BDC289BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
