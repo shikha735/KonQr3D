@@ -6,7 +6,7 @@ public class PlayerShooting : MonoBehaviour
     public float timeBetweenBullets = 0.15f;
     public float range = 100f;
 
-
+    Animator anim;
     float timer;
     Ray shootRay;
     RaycastHit shootHit;
@@ -20,6 +20,7 @@ public class PlayerShooting : MonoBehaviour
 
     void Awake ()
     {
+        anim = GetComponent<Animator>();
         shootableMask = LayerMask.GetMask ("Shootable");
         gunParticles = GetComponent<ParticleSystem> ();
         gunLine = GetComponent <LineRenderer> ();
@@ -56,7 +57,7 @@ public class PlayerShooting : MonoBehaviour
         timer = 0f;
 
         gunAudio.Play ();
-
+        anim.SetTrigger("IsShooting");
         gunLight.enabled = true;
 
         gunParticles.Stop ();
