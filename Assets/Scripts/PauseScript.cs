@@ -12,17 +12,30 @@ public class PauseScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("p"))
-        {
-            paused = !paused;
-        }
+        //if (Input.GetKeyDown("p"))
+        //{
+        //    paused = !paused;
+        //}
+        //if (paused)
+        //{
+        //    Time.timeScale = 0;
+        //}
+        //else if (!paused)
+        //{
+        //    Time.timeScale = 1;
+        //}
+    }
+
+    public void Pause()
+    {
+        paused = !paused;
         if (paused)
         {
             Time.timeScale = 0;
         }
-        else if(!paused)
+        else if (!paused)
         {
             Time.timeScale = 1;
         }
-	}
+    }
 }

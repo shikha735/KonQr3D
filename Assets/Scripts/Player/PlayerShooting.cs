@@ -20,7 +20,7 @@ public class PlayerShooting : MonoBehaviour
 
     void Awake ()
     {
-        anim = GetComponent<Animator>();
+        // anim = GetComponent<Animator>();
         shootableMask = LayerMask.GetMask ("Shootable");
         gunParticles = GetComponent<ParticleSystem> ();
         gunLine = GetComponent <LineRenderer> ();
@@ -57,7 +57,7 @@ public class PlayerShooting : MonoBehaviour
         timer = 0f;
 
         gunAudio.Play ();
-        anim.SetTrigger("IsShooting");
+        // anim.SetTrigger("IsShooting");
         gunLight.enabled = true;
 
         gunParticles.Stop ();
@@ -71,10 +71,10 @@ public class PlayerShooting : MonoBehaviour
 
         if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
         {
-            // EnemyHealth enemyHealth = shootHit.collider.GetComponent <EnemyHealth> ();
-            // if(enemyHealth != null)
+            EnemyHealth enemyHealth = shootHit.collider.GetComponent <EnemyHealth> ();
+            if(enemyHealth != null)
             {
-                // enemyHealth.TakeDamage (damagePerShot, shootHit.point);
+                enemyHealth.TakeDamage (damagePerShot, shootHit.point);
             }
             gunLine.SetPosition (1, shootHit.point);
         }
