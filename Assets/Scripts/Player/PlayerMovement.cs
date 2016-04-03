@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 6f;
 
     Vector3 movement;
-    Animator anim;
+    private Animator anim;
     Rigidbody playerRigidbody;
     int floorMask;
     float camRayLength = 100f;
@@ -56,7 +56,52 @@ public class PlayerMovement : MonoBehaviour
     
     void Animating(float h, float v)
     {
-        bool walking = h != 0f || v != 0f;
-        anim.SetBool("IsWalking", walking);
+        //bool walking = h != 0f || v != 0f;
+        //anim.SetBool("IsWalking", walking);
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            anim.SetBool("Run", true);
+        }
+        else
+        {
+            anim.SetBool("Run", false);
+        }
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            anim.SetBool("RunLeft", true);
+        }
+        else
+        {
+            anim.SetBool("RunLeft", false);
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            anim.SetBool("RunRight", true);
+        }
+        else
+        {
+            anim.SetBool("RunRight", false);
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            anim.SetBool("RunBack", true);
+        }
+        else
+        {
+            anim.SetBool("RunBack", false);
+        }
+
+        if (Input.GetButton("Fire1") || Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("Attack", true);
+        }
+        else
+        {
+            anim.SetBool("Attack", false);
+        }
     }
 }
