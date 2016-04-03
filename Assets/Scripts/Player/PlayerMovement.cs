@@ -23,8 +23,8 @@ public class PlayerMovement : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
 
         Move(h, v);
-        // Turning();
-        Animating(h, v);
+        Turning();
+        // Animating(h, v);
     }
 
     void Move(float h, float v)
