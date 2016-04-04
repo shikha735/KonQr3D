@@ -4,3 +4,13 @@ D:/Unity Game Engine/Editor/Data/Managed/UnityEngine.dll
 D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 D:/Unity Game Engine/Editor/Data/Managed/UnityEditor.dll
+D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll
+D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll
+D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll
+D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll
+D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll
+D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll
+D:/Unity Game Engine/Editor/Data/Managed/UnityEditor.Graphs.dll
+D:/Unity Game Engine/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+D:/Unity Game Engine/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
