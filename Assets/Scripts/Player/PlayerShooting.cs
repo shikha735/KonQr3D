@@ -20,7 +20,6 @@ public class PlayerShooting : MonoBehaviour
 
     void Awake ()
     {
-        // anim = GetComponent<Animator>();
         shootableMask = LayerMask.GetMask ("Shootable");
         gunParticles = GetComponent<ParticleSystem> ();
         gunLine = GetComponent <LineRenderer> ();
@@ -57,7 +56,6 @@ public class PlayerShooting : MonoBehaviour
         timer = 0f;
 
         gunAudio.Play ();
-        // anim.SetTrigger("IsShooting");
         gunLight.enabled = true;
 
         gunParticles.Stop ();
