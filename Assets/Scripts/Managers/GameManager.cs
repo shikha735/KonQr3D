@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public PlayerHealth playerHealth;
     public float levelStartDelay = 2f;
+    public float restartDelay = 5f;
     public float levelOneMaxScore = 50;
     public float levelTwoMaxScore = 100;
     public float levelThreeMaxScore = 150;
@@ -16,6 +17,8 @@ public class GameManager : MonoBehaviour
     public GameObject levelImage;
     private bool doingSetUp;
     Animator anim;
+    private float restartTimer = 0;
+    private float levelStartTimer = 0;
 
 
     void Awake()
@@ -52,6 +55,12 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.DeleteKey("Score");
             anim.SetTrigger("GameOver");
+            restartTimer += Time.deltaTime;
+            
+            if(restartTimer >= restartDelay)
+            {
+                SceneManager.LoadScene(0);
+            }
         }
         if (doingSetUp)
         {
@@ -61,16 +70,24 @@ public class GameManager : MonoBehaviour
         {
             if (SceneManager.GetActiveScene().name == "Level 01")
             {
-                StartCoroutine(LevelChange());
-                SceneManager.LoadScene("Level 02");
+                levelStartTimer += Time.deltaTime;
+                if(levelStartTimer >= levelStartDelay)
+                {
+                    StartCoroutine(LevelChange());
+                    SceneManager.LoadScene("Level 02");
+                }
             }
         }
         if (ScoreManager.score >= levelTwoMaxScore)
         {
             if (SceneManager.GetActiveScene().name == "Level 02")
             {
-                LevelChange();
-                SceneManager.LoadScene("Level 03");
+                levelStartTimer += Time.deltaTime;
+                if (levelStartTimer >= levelStartDelay)
+                {
+                    StartCoroutine(LevelChange());
+                    SceneManager.LoadScene("Level 03");
+                }
             }
         }
     }
@@ -79,7 +96,7 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("HighScore", HighScoreManager.highScore);
         PlayerPrefs.SetInt("Score", ScoreManager.score);
-        Debug.Log("Save Scores: " +PlayerPrefs.GetInt("HighScore"));
+
         if (PlayerPrefs.GetInt("Score") > PlayerPrefs.GetInt("HighScore"))
         {
             HighScoreManager.highScore = ScoreManager.score;
