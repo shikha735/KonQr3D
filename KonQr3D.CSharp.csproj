@@ -78,9 +78,6 @@
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManagerTemp.cs" />
     <Compile Include="Assets\Scripts\Managers\HighScoreManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\LevelOneManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\LevelTwoManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -14,6 +15,17 @@ public class ScoreManager : MonoBehaviour
         score = 0;
     }
 
+    void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "Level 01")
+        {
+            score = 0;
+        }
+        else
+        {
+            score = PlayerPrefs.GetInt("Score");
+        }
+    }
 
     void Update ()
     {

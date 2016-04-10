@@ -5,10 +5,17 @@ using UnityEngine.UI;
 public class HighScoreManager : MonoBehaviour {
 
     Text text;
+    public static int highScore;
 	
     void Awake()
     {
         text = GetComponent<Text>();
-        text.text = "High Score: " + PlayerPrefs.GetInt("High Score");
+        highScore = PlayerPrefs.GetInt("HighScore");
+        text.text = "High Score: " + highScore;
+    }
+    void Update()
+    {
+        highScore = PlayerPrefs.GetInt("HighScore");
+        text.text = "High Score: " + highScore;
     }
 }

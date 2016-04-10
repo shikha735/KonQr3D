@@ -82,10 +82,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void RestartLevel()
     {
-        // if(ScoreManager.score > PlayerPrefs.GetInt("HighScore"))
-        // {
-        //   PlayerPrefs.SetInt("HighScore", ScoreManager.score);
-        //}
         SceneManager.LoadScene(0);
     }
 }
