@@ -82,6 +82,7 @@ Assets/Scripts/ChaScript.cs
 Assets/Scripts/Enemy/EnemyAttack.cs
 Assets/Scripts/Enemy/EnemyHealth.cs
 Assets/Scripts/Enemy/EnemyMovement.cs
+Assets/Scripts/Fading.cs
 Assets/Scripts/Managers/EnemyManager.cs
 Assets/Scripts/Managers/GameManager.cs
 Assets/Scripts/Managers/GameManagerTemp.cs

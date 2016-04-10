@@ -1,13 +1,12 @@
 -debug
 -target:library
--i:UnityEngine
--i:System.Collections
--base:UnityEngine.MonoBehaviour
--nowarn:BCW0016
--nowarn:BCW0003
--method:Main
--out:Temp/Assembly-UnityScript.dll
--x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"D:/Unity Game Engine/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/Unity Game Engine/Editor/Data/Managed/UnityEditor.dll"
 -define:UNITY_5_3_0
 -define:UNITY_5_3
 -define:UNITY_5
@@ -78,10 +77,25 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
--r:"D:/Unity Game Engine/Editor/Data/Managed/UnityEngine.dll"
--r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
--r:"D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"D:/Unity Game Engine/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"D:/Unity Game Engine/Editor/Data/Managed/UnityEditor.dll"
--i:UnityEditor
-Assets/Scripts/Camera/cameraMove.js
+Assets/Scripts/Camera/CameraFollow.cs
+Assets/Scripts/ChaScript.cs
+Assets/Scripts/Enemy/EnemyAttack.cs
+Assets/Scripts/Enemy/EnemyHealth.cs
+Assets/Scripts/Enemy/EnemyMovement.cs
+Assets/Scripts/Fading.cs
+Assets/Scripts/Managers/EnemyManager.cs
+Assets/Scripts/Managers/GameManager.cs
+Assets/Scripts/Managers/GameManagerTemp.cs
+Assets/Scripts/Managers/HighScoreManager.cs
+Assets/Scripts/Managers/LevelManager.cs
+Assets/Scripts/Managers/LevelOneManager.cs
+Assets/Scripts/Managers/LevelTwoManager.cs
+Assets/Scripts/Managers/ScoreManager.cs
+Assets/Scripts/MenuScript.cs
+Assets/Scripts/Move.cs
+Assets/Scripts/PauseScript.cs
+Assets/Scripts/Player/PlayerHealth.cs
+Assets/Scripts/Player/PlayerMovement.cs
+Assets/Scripts/Player/PlayerShooting.cs
+-r:"D:\Unity Game Engine\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"D:\Unity Game Engine\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
