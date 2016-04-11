@@ -76,7 +76,6 @@
     <Compile Include="Assets\Scripts\Fading.cs" />
     <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\GameManagerTemp.cs" />
     <Compile Include="Assets\Scripts\Managers\HighScoreManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />

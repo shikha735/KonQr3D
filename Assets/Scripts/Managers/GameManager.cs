@@ -90,6 +90,12 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+
+        if(ScoreManager.score >= levelThreeMaxScore)
+        {
+            // Player wins
+            SceneManager.LoadScene(4);
+        }
     }
 
     void SaveScores()
