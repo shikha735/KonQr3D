@@ -4,10 +4,10 @@
 
 Concepts of computer graphics shall also be used to achieve highly realistic look and feel. The game shall be attempted to support multiple platforms and shall be user friendly, omitting age and compatibility constraints respectively. 
 
-Controls
+<h4>Controls</h4>
 
-Input					Action
+<b>Input</b> &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<b>Action</b>
 
-W,A,S,D or arrow keys		Move character
-Left mouse button or CTRL	Fire
-Mouse					Aim
+W,A,S,D or arrow keys	 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;&nbsp;	Move character<br/>
+Left mouse button or CTRL	 &nbsp; &nbsp;  Fire<br/>
+Mouse	  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;  &nbsp;Aim<br/>
