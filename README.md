@@ -15,4 +15,4 @@ Mouse	  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&
 ##Demo video:<br/>
 
 
-<a href="https://www.youtube.com/watch?v=RWGQKk-rNgQ" target="_blank"><img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots%20and%20Demo%20video/Screenshot%20(42).png" alt="KonQr 3D Demo" width="240" height="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=RWGQKk-rNgQ" target="_blank"><img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots%20and%20Demo%20video/Youtube_Video.png" alt="KonQr 3D Demo" width="450" height="300" border="10" /></a>
