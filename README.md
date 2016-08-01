@@ -12,6 +12,25 @@ W,A,S,D or arrow keys	 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;&nbsp;	Move charact
 Left mouse button or CTRL	 &nbsp; &nbsp;  Fire<br/>
 Mouse	  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;  &nbsp;Aim<br/>
 
+##Screenshots:
+
+###Start Screen
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Start%20Screen.JPG" width="450" height="300"/><br/>
+###Help Screen
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Help%20Screen.JPG" width="450" height="300"/><br/>
+###Quit Menu
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Quit%20Menu.JPG" width="450" height="300"/><br/>
+###Level 01
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Level%2001%20beginning.JPG" width="450" height="300"/><br/>
+###Pause Menu
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Pause%20Menu.JPG" width="450" height="300"/><br/>
+###Level 02
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Level%2002%20beginning.JPG" width="450" height="300"/><br/>
+###Level 03
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Level%2003.png" width="450" height="300"/><br/>
+###Win Scene
+<img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots/Win%20Scene.JPG" width="450" height="300"/><br/>
+
 ##Demo video:<br/>
 
 
