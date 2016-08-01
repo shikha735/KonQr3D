@@ -11,3 +11,8 @@ Concepts of computer graphics were used to achieve highly realistic look and fee
 W,A,S,D or arrow keys	 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;&nbsp;	Move character<br/>
 Left mouse button or CTRL	 &nbsp; &nbsp;  Fire<br/>
 Mouse	  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;  &nbsp;Aim<br/>
+
+##Demo video:<br/>
+
+
+<a href="https://www.youtube.com/watch?v=RWGQKk-rNgQ" target="_blank"><img src="https://github.com/shikha735/KonQr3D/blob/master/Screenshots%20and%20Demo%20video/Screenshot%20(42).png" alt="KonQr 3D Demo" width="240" height="180" border="10" /></a>
